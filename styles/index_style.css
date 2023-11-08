@@ -11,8 +11,20 @@ html {
 }
 
 body{
+    
+  height: 100%;
   text-align:center;
   background-color:#ffcc8e;
+  background-image:
+  linear-gradient(45deg, #FFDD88 25%, transparent 25%, transparent 75%, #FFDD88 75%, #FFDD88), 
+  linear-gradient(45deg, #FFDD88 25%, transparent 25%, transparent 75%, #FFDD88 75%, #FFDD88),
+  linear-gradient(45deg, transparent, transparent 50%, #FFC87F 50%, #FFC87F);
+  animation: scroll 4s linear infinite;
+  background-size: 100px 100px;
+}
+@keyframes scroll {
+  from { background-position: 0 0, 50px 50px, 50px 0; }
+  to { background-position: -100px -100px, -50px -50px, -50px -100px; }
 }
 
 /* NAV style */
@@ -41,6 +53,7 @@ cursor: pointer;
 nav .animation {
 position: absolute;
 height: 100%;
+
 top: 0;
 z-index: 0;
 transition: all .5s ease 0s;
@@ -64,17 +77,17 @@ width: 100px;
 left: 0;
 background-color: #e67e22;
 }
-nav .start-about, a:nth-child(2):hover~.animation {
+nav .start-quiz, a:nth-child(2):hover~.animation {
 width: 110px;
 left: 100px;
 background-color: #e67e22;
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+nav .start-pokedex, a:nth-child(3):hover~.animation {
 width: 100px;
 left: 210px;
 background-color: #e67e22;
 }
-nav .start-portefolio, a:nth-child(4):hover~.animation {
+nav .start-contacto, a:nth-child(4):hover~.animation {
 width: 160px;
 left: 310px;
 background-color: #e67e22;
@@ -165,11 +178,18 @@ span {
 
 /* FOOTER style */
 .footer{
-  background:#000;
-  padding:30px 0px;
-  font-family: 'Play', sans-serif;
-  text-align:center;
-  margin-top: 20px;
+    
+    
+  border-width: 1px;
+  
+  height: 100px;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+.footer .red{
+  height: 100px;
+  padding: 40px;
 }
     
 .footer .row{
@@ -198,7 +218,7 @@ span {
   display:inline-block;
   margin:0px 30px;
 }
-    
+
 .footer .row a i{
   font-size:2em;
   margin:0% 1%;
