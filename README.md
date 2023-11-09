@@ -7,4 +7,6 @@
 - ### HTML
 - ### CSS
 - ### JS
+- ### JSON
+- ### VITE
 - ### Git
