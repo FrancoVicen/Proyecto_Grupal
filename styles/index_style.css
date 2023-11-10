@@ -483,3 +483,207 @@ span {
   }
 }
 
+@media (max-width: 460px) {
+  nav {
+    width: 85%; 
+  }
+
+  nav a {
+    font-size: 12px; 
+  }
+
+  a:nth-child(1) {
+    width: 75px; 
+  }
+
+  a:nth-child(2) {
+    width: 85px; 
+  }
+
+  a:nth-child(3) {
+    width: 75px; 
+  }
+  a:nth-child(4) {
+    width: 115px; 
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 75px; 
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 85px; 
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 75px; 
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 100px; 
+  }
+}
+
+@media (max-width: 412px) {
+  nav {
+    width: 90%; 
+  }
+
+  nav a {
+    font-size: 12px; 
+  }
+
+  a:nth-child(1) {
+    width: 85px; 
+  }
+
+  a:nth-child(2) {
+    width: 85px; 
+  }
+
+  a:nth-child(3) {
+    width: 75px; 
+  }
+  a:nth-child(4) {
+    width: 95px; 
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 90px; 
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 85px; 
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 85px; 
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 85px; 
+  }
+}
+
+@media (max-width: 375px) {
+  nav {
+    width: 90%; 
+  }
+
+  nav a {
+    font-size: 12px; 
+  }
+
+  a:nth-child(1) {
+    width: 70px; 
+  }
+
+  a:nth-child(2) {
+    width: 80px; 
+  }
+
+  a:nth-child(3) {
+    width: 70px; 
+  }
+  a:nth-child(4) {
+    width: 90px; 
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 70px; 
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 80px; 
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 70px; 
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 90px; 
+  }
+}
+
+@media (max-width: 340px) {
+  nav {
+    width: 90%; 
+  }
+
+  nav a {
+    font-size: 12px; 
+  }
+
+  a:nth-child(1) {
+    width: 60px; 
+  }
+
+  a:nth-child(2) {
+    width: 70px; 
+  }
+
+  a:nth-child(3) {
+    width: 60px; 
+  }
+  a:nth-child(4) {
+    width: 80px; 
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 60px; 
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 70px; 
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 60px; 
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 80px; 
+  }
+}
+
+@media (max-width: 290px) {
+  nav {
+    width: 90%; 
+  }
+
+  nav a {
+    font-size: 12px; 
+  }
+
+  a:nth-child(1) {
+    width: 50px; 
+  }
+
+  a:nth-child(2) {
+    width: 60px; 
+  }
+
+  a:nth-child(3) {
+    width: 50px; 
+  }
+  a:nth-child(4) {
+    width: 70px; 
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 50px; 
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 60px; 
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 50px; 
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 70px; 
+  }
+}
