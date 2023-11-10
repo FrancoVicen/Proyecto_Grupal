@@ -142,3 +142,167 @@
     color:rgb(0, 0, 0);
   }
   
+/* MEDIA */
+@media (max-width:720px){
+  nav {
+    width: 80%; /* Cambiamos el ancho a un porcentaje en pantallas más pequeñas */
+  }
+
+  a:nth-child(1) {
+    width: 20%; /* Porcentaje del ancho total para el primer enlace */
+  }
+
+  a:nth-child(2) {
+    width: 30%; /* Porcentaje del ancho total para el segundo enlace */
+  }
+
+  a:nth-child(3) {
+    width: 20%; /* Porcentaje del ancho total para el tercer enlace */
+  }
+
+  a:nth-child(4) {
+    width: 30%; /* Porcentaje del ancho total para el cuarto enlace */
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 20%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 0;
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 30%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 20%; /* Alineado después del primer enlace */
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 20%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 50%; /* Alineado después del segundo enlace */
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 30%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 70%; /* Alineado después del tercer enlace */
+  }
+
+  .button {
+    margin: 20px; /* Ajustar el margen en pantallas más pequeñas */
+  }
+
+  .button a {
+    font-size: 24px; /* Ajustar el tamaño del texto en pantallas más pequeñas */
+    padding: 15px 40px; /* Ajustar el padding en pantallas más pequeñas */
+  }
+
+  .footer{
+    text-align:left;
+    padding:5%;
+  }
+  .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+  }
+  .footer .row a i{
+    margin:0% 3%;
+  }
+}
+
+@media (max-width: 560px) {
+  nav {
+    width: 70%; /* Cambiamos el ancho a un porcentaje en pantallas más pequeñas */
+  }
+
+  a:nth-child(1) {
+    width: 15%; /* Porcentaje del ancho total para el primer enlace */
+  }
+
+  a:nth-child(2) {
+    width: 25%; /* Porcentaje del ancho total para el segundo enlace */
+  }
+
+  a:nth-child(3) {
+    width: 15%; /* Porcentaje del ancho total para el tercer enlace */
+  }
+
+  a:nth-child(4) {
+    width: 25%; /* Porcentaje del ancho total para el cuarto enlace */
+  }
+
+  nav .start-home, a:nth-child(1):hover~.animation {
+    width: 15%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 0;
+  }
+
+  nav .start-quiz, a:nth-child(2):hover~.animation {
+    width: 25%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 15%; /* Alineado después del primer enlace */
+  }
+
+  nav .start-pokedex, a:nth-child(3):hover~.animation {
+    width: 15%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 40%; /* Alineado después del segundo enlace */
+  }
+
+  nav .start-contacto, a:nth-child(4):hover~.animation {
+    width: 25%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+    left: 60%; /* Alineado después del tercer enlace */
+  }
+
+  .button{
+    margin:25px;
+  }
+
+  .button a {
+    font-size: 20px; /* Ajustar el tamaño del texto en pantallas más pequeñas */
+    padding: 15px 40px; /* Ajustar el padding en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 721px){
+  .button{
+  
+    margin:102px;
+  }
+  
+  .button a{
+    height: 100%;
+    width: auto;
+  }
+}
+/* media 470 */
+@media (max-width: 561px) {
+  nav{
+    width: 300px;
+  }
+  nav a {
+    font-size: 10px; 
+    margin:auto;
+  }
+  nav .animation{
+    display: none;
+  }
+
+
+ 
+}
+@media (max-width: 380px) {
+  nav{
+    width: 280px;
+   
+  }
+  nav a{
+    right: auto;
+  }
+  .button{
+  
+    margin:90px;
+  }
+  
+  .button a{
+    height: 100%;
+    width: auto;
+    font-size: 10px;
+  }
+
+ 
+}
